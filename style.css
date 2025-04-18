@@ -58,9 +58,24 @@ a:hover {
   text-decoration: underline;
 }
 
+.resume-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.resume-btn:hover {
+  background-color: #005fa3;
+}
+
 footer {
   text-align: center;
   padding: 20px;
   color: #555;
 }
-
